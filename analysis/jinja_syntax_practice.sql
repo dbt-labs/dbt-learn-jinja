@@ -10,7 +10,7 @@
 
 -- practice setting list
 
-{% my_animals = ['lemur', 'wolf', 'panther', 'tardigrade'] %}
+{% set my_animals = ['lemur', 'wolf', 'panther', 'tardigrade'] %}
 
 -- practice accessing items of list
 
