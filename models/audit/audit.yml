@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: audit
+    columns:
+      - name: percent_of_total
+        tests:
+          - accepted_values:
+              values:
+                - 100
