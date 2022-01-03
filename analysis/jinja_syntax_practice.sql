@@ -30,7 +30,7 @@
 
 -- practice with if statements!
 
-{%- set temperature = -45 %}
+{%- set temperature = 45 %}
 
 {% if temperature < 65 %}
     Time for a cappuccino!
