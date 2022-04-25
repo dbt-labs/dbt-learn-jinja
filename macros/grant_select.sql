@@ -1,3 +1,7 @@
+{#
+    This macro only works for SnowFlake as target.role variable is not available for others providers
+    See @link https://docs.getdbt.com/reference/dbt-jinja-functions/target#adapter-specific
+#}
 {% macro grant_select(schema=target.schema, role=target.role) %}
 
     {% set sql %}
