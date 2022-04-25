@@ -1,3 +1,6 @@
+{#
+    This macro only works for Snowflake as no public datasets are provided for BigQuery users
+#}
 {%- macro union_tables_by_prefix(database, schema, prefix) -%}
 
     {%- set tables = dbt_utils.get_relations_by_prefix(database=database, schema=schema, prefix=prefix) -%}
